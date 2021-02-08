@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slider-img{
+            width: 500px;
+            height: 500px;
+            margin: 10px;
+        }
+        #imgTage{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script src="index.js"></script>
+  
+</head>
+<body>
+    <div class="slider" style="margin: 10px;">
+    
+<input class="btn" type="button" value="next" onclick="next()" />
+<input class="btn" type="button" value="show slider" onclick="showslider()" />
+<input class="btn" type="button" value="stop slider" onclick="stopslider()" />
+<input  class="btn" type="button" value="Previous" onclick="prve()" >
+
+    <div class="slider-img">
+        <img  src="/src/assets/1.jpg" id="imgTage" >
+    </div>
+</div>
+</body>
+</html>
